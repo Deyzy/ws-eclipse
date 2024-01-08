@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class EntradaDados {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);	// entrada de dados
+		
+		//ler uma palavra a partir do teclado 
+		String x;
+		x = sc.next();
+		System.out.println("Você digitou a palavra: \\n" + x);
+			
+			 
+		//Para ler um numero inteiro 
+		int y;				 
+		y = sc.nextInt();
+		System.out.println("Você digitou o numero: \n" + y);
+		
+		
+		//Para ler um numero com casas decimais 
+		double w;				 
+		w = sc.nextDouble();
+		System.out.println("Você digitou o numero: \n" + w);
+			
+		sc.close();
+
+
+	}
+
+}

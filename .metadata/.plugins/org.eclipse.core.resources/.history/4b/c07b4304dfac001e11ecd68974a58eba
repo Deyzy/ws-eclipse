@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class EntradaDados {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);	//ler uma palavra a partir do teclado 
+			
+		String x;
+		x = sc.next();
+		System.out.println("Você digitou: " + x);
+			
+		sc.close();
+		
+		Scanner sc = new Scanner(System.in);	//ler uma palavra a partir do teclado 
+		
+		int y;
+		y = sc.nextInt();
+		System.out.println("Você digitou: " + y);
+			
+		sc.close();
+
+
+	}
+
+}
