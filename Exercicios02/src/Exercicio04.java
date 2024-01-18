@@ -9,8 +9,19 @@ public class Exercicio04 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int hora;
-		hora = sc.nextInt();
+		int horaInicio;
+		int horaFinal;
+		horaInicio = sc.nextInt();
+		horaFinal = sc.nextInt();
+		
+		int duracao;	
+		
+		if(horaInicio < horaFinal) {
+			duracao = horaFinal - horaInicio;
+		}else {
+			duracao = 24 - horaInicio + horaFinal;
+		}
+		System.out.println("O jogo durou " + duracao + " Horas");
 		
 		
 		
